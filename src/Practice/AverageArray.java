@@ -1,5 +1,7 @@
 package Practice;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 import java.util.Arrays;
 import java.util.OptionalDouble;
 
@@ -22,5 +24,8 @@ public class AverageArray {
         OptionalDouble average = Arrays.stream(num).average();
         System.out.println("The average number is " + average);
     }
+
+
+
 
 }
